@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@400;500;600;700&family=Quintessential&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: auto;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Ubuntu',sans-serif;
+}
+body{
+    background-color: #999;
+    display: flex;
+}
+.signin{
+    background: #fff;
+    top: 18%;
+    position: absolute;
+    left:30%;
+    padding: 32px;
+    height: 500px;
+    width: 500px;
+    border: 2px solid #111;
+    border-radius: 6px ;
+}
+.signin h3{
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    border-bottom: 4px solid crimson;
+    color:blue;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+
+}
+.signin form{
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+.signin form #username{
+    font-size: 24px;
+    color: #111;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+input[type=text]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border:3px solid #111;
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    background: none;
+}
+.signin form #password{
+    font-size: 24px;
+    color: #111;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+input[type=password]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border:3px solid #111;
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    background: none;
+}
+.signin button{
+    padding: 10px 8px;
+    margin:10px;
+    border-radius: 6px;
+    box-shadow: #999;
+    background: crimson ;
+    transition: all 0.8s ease;
+}
+.signin button a{
+    color:#111;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px;
+}
+.signin button:hover a{
+    color: navajowhite;
+}
+.signin p a{
+    color:blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    
+}
+.signin p{
+    font-size: 18px;
+    font-weight: 500;
+    
+}

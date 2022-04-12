@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@400;500;600;700&family=Quintessential&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*nav bar styling */
+.navbar{
+    background: black; 
+    position:fixed;
+    padding: 24px 0;
+    z-index: 999;
+    width: 100%;
+    font-family: "Ubuntu" , sans-serif;
+    transition: all 0.3s ease;
+}
+.navbar .sticky{
+    background: crimson; 
+    padding: 15px 0;
+}
+.navbar.sticky .logo a span{
+    color: #fff;
+
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 60px;
+    margin : auto;
+}
+.navbar .logo {
+    color: aquamarine;
+    font-size: 24px;
+    font-weight: 600;
+}
+.navbar .logo #color {
+    color: aquamarine;
+    animation: colorChange 30s infinite;
+
+}
+@keyframes colorChange {
+    0%{color: aquamarine;}
+    20%{color:crimson;}
+    30%{color:burlywood}
+    50%{color: #fff;}
+    70%{color: aqua;}
+    100%{color: #111;}
+}
+.navbar .menu li{
+    display: inline-block;
+    padding: 10px;
+}
+.navbar .menu li a{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.8s ease;
+}
+.navbar .menu li a:hover{
+    color: crimson;
+    border-bottom: 2px solid aquamarine;
+
+}
+.navbar .sign ul li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+.navbar .sign ul li a{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.8s ease;
+}
+.navbar .sign .menu-btn{
+    color: #fff;
+}
+.navbar .sign ul li a:hover{
+    color: crimson;
+    border-bottom: 2px solid aquamarine;
+}
+/* home section styling */
+.home{
+    background-image: url('home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+}
+.home .content{
+    margin: 88px;
+}
+.home .content h2{
+    color: crimson;
+    padding: 10px;
+    font-size: 55px;
+    font-weight: 600;
+}
+.home .content p{
+    color: blue;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+}
+.home .content a{
+    color: navajowhite;
+    background: blue;
+    border: 2px solid blue;
+    padding: 8px;
+    font-size: 28px;
+    margin: 10px;
+    border-radius: 6px;
+    transition: all 0.8s ease;
+}
+.home .content a:hover{
+    background:none;
+    color:blue;
+}
